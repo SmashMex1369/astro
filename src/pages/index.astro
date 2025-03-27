@@ -1,14 +1,18 @@
 ---
 const tasks = [
-  "Estudiar Astro",
+  "Estudiar Espress.JS",
   "Hacer la tarea de matemáticas",
   "Preparar la presentación",
   "Leer un libro",
 ];
 ---
+<!DOCTYPE html>
+<html lang="es">
 <html>
   <head>
-    <title>Mis Tareas Pendientes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Tareas Pendientes de Christopher</title>
     <style>
       /* Estilos para el botón */
       .big-red-button {
@@ -33,7 +37,7 @@ const tasks = [
     </style>
   </head>
   <body>
-    <h1>Mis Tareas Pendientes</h1>
+    <h1>Mis Tareas Pendientes de Christopher</h1>
     <ul>
       {tasks.map((task) => (
         <li>{task}</li>
